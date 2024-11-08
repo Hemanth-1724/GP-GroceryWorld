@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP GROCERY WORLD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="logo"><span style="color: rgb(216, 55, 92);">GP</span>GROCERIES</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="Course.html">PRODUCTS</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Grocery Shop</h1>
+    </section>
+    <!-- ---------blog----------- -->
+    <section class="blog">
+        <div class="row">
+            <div class="blog-centre">
+                <img src="img/grocy.jpg">
+                <h2>Shop Smart, Live Well !</h2>
+                
+                <div>
+                    <p style="text-align:justify">Welcome to your local neighborhood grocery store, where fresh, high-quality products and outstanding customer service are our top priorities! As a locally-owned business, we take great pride in serving our community with a wide variety of premium groceries at affordable prices. Our goal is to make your shopping experience as convenient, enjoyable, and budget-friendly as possible.
+
+                        We offer an extensive range of products to meet all your needs, from fresh, seasonal produce to pantry staples, dairy, meats, and snacks. Whether you're looking for organic options, gluten-free items, or international flavors, we have something for everyone. We also prioritize supporting local farmers and suppliers, bringing you the best locally-sourced products alongside trusted national brands.
+                        
+                        Our store is thoughtfully organized, making it easy to find everything you need in one trip. Whether you're stocking up for the week, picking up dinner ingredients, or browsing for specialty items, we’ve got you covered. Our friendly, knowledgeable staff is always on hand to offer assistance or recommendations, ensuring you have a smooth, hassle-free shopping experience.
+                        
+                        At our store, we believe that grocery shopping should be a pleasant, stress-free task. That’s why we go the extra mile to create an inviting atmosphere where you feel right at home. We’re here to make sure you have everything you need to feed your family, try new recipes, or simply make your everyday meals a little bit easier.
+                        
+                        Thank you for choosing us for all your grocery needs. We look forward to serving you and your family with the best products and service in town. Visit us today and see why so many people trust us to provide their groceries!</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div>
+                </div>
+                
+    </section>
+    <!-- --------footer--------- -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We’re here to make your grocery shopping quick, affordable, and enjoyable!<br>
+            Our friendly team is dedicated to delivering excellent service, making every shopping trip a pleasant and hassle-free experience.
+        </p>
+        <div class="icons">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </div>
+        <p>Project Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by Hemanth</p>
+    </section>
+    <!-- JavaScript for Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
