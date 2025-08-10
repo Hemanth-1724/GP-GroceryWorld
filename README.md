@@ -1,3 +1,3 @@
 # College-Webpage
 Here is the project based on ui/ux developer. The topic of website is based on college.
-Link to view the project:https://deekshith18-vk.github.io/College-Webpage/index.html
+Link to view the project:https://hemanth-1724.github.io/GP-GroceryWorld/index.html
